@@ -18,7 +18,7 @@ allRides.forEach(async ([id, value]) => {
 
     const firstPosition = ride.data[0]
     const firstLocationData = await getLocationData(firstPosition.latitude, firstPosition.longitude)
-    // console.log(firstLocationData)
+    console.log(firstLocationData)
 
     const mapID = `map${ride.id}`
     const mapElement = document.createElement("div")
@@ -31,7 +31,7 @@ allRides.forEach(async ([id, value]) => {
     dataElement.className = "flex-fill d-flex flex-column"
 
     const cityDiv = document.createElement("div")
-    cityDiv.innerText = `${firstLocationData.city} - ${firstLocationData.countryCode} - ${firstLocationData.plusCode}`
+    cityDiv.innerText = `${firstLocationData.city}, ${firstLocationData.principalSubdivision} - ${firstLocationData.countryCode}`
     cityDiv.className = "text-primary mb-2"
 
     const maxSpeedDiv = document.createElement("div")
