@@ -18,7 +18,7 @@ allRides.forEach(async ([id, value]) => {
 
     const firstPosition = ride.data[0]
     const firstLocationData = await getLocationData(firstPosition.latitude, firstPosition.longitude)
-    console.log(firstLocationData)
+    // console.log(firstLocationData)
 
     const mapID = `map${ride.id}`
     const mapElement = document.createElement("div")

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     dataElement.className = "flex-fill d-flex flex-column"
 
     const cityDiv = document.createElement("div")
-    cityDiv.innerText = `${firstLocationData.city} - ${firstLocationData.countryCode}`
+    cityDiv.innerText = `${firstLocationData.city}, ${firstLocationData.principalSubdivision} - ${firstLocationData.countryCode}`
     cityDiv.className = "text-primary mb-2"
 
     const maxSpeedDiv = document.createElement("div")
