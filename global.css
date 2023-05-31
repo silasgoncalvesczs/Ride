@@ -13,7 +13,7 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #20858c;
     --bs-btn-hover-border-color: #20858c;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #20858c;
     --bs-btn-active-border-color: #20858c;
@@ -23,7 +23,27 @@
     --bs-btn-disabled-border-color: #29c5cf;
 }
 
-#mapDetail{
+#mapDetail {
     height: 300px;
     background-color: #ccc;
+}
+
+.font200 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+.font300 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.font400 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+.font700 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
 }
